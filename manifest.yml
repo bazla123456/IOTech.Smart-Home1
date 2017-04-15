@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IOTech.Smart Home
+  host: IOTechSmartHome
+  disk_quota: 1024M
+  services:
+  - IOTech.Smart Home-cloudantNoSQLDB
+  - IOTech.Smart Home-iotf-service
+  - dashDB for Analytics-sq
+  - availability-monitoring-auto
